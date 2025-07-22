@@ -298,6 +298,7 @@
             border-radius: 5px;
             cursor: pointer;
             transition: all 0.3s;
+            font-size: 20px;
         }
 
         .filter-btn:hover,
@@ -337,6 +338,7 @@
             justify-content: center;
             opacity: 0;
             transition: opacity 0.3s;
+            text-align: center;
         }
 
         .portfolio-item:hover .portfolio-overlay {
