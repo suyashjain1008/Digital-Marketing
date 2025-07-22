@@ -63,20 +63,20 @@
             });
         });
 
-        // Form submission
-        function handleSubmit(event) {
-            event.preventDefault();
+        // // Form submission
+        // function handleSubmit(event) {
+        //     event.preventDefault();
             
-            // Get form data
-            const formData = new FormData(event.target);
-            const data = Object.fromEntries(formData);
+        //     // Get form data
+        //     const formData = new FormData(event.target);
+        //     const data = Object.fromEntries(formData);
             
-            // Simulate form submission
-            alert('Thank you for your inquiry! I will get back to you within 24 hours to discuss your digital marketing needs.');
+        //     // Simulate form submission
+        //     alert('Thank you for your inquiry! I will get back to you within 24 hours to discuss your digital marketing needs.');
             
-            // Reset form
-            event.target.reset();
-        }
+        //     // Reset form
+        //     event.target.reset();
+        // }
 
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
