@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/(about|services|home|portfolio|contact)", "destination": "/" }
+  ],
+  "redirects": [
+    { "source": "/(.*)", "destination": "/404.html", "statusCode": 404 }
   ]
 }
